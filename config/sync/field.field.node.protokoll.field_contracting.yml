@@ -1,0 +1,22 @@
+uuid: 0953adce-8c4e-4cf2-8f19-920e61a99b5e
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contracting
+    - node.type.protokoll
+  module:
+    - text
+id: node.protokoll.field_contracting
+field_name: field_contracting
+entity_type: node
+bundle: protokoll
+label: Contracting
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

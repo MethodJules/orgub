@@ -1,0 +1,11 @@
+uuid: a5016301-a0b5-4878-890b-4c8617b66240
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.protokoll
+id: node.protokoll
+target_entity_type_id: node
+target_bundle: protokoll
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,19 @@
+uuid: 1e2c4f9d-0624-48b2-bc88-65403b54e33e
+langcode: de
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_hypothese
+field_name: field_hypothese
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

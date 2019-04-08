@@ -1,0 +1,22 @@
+uuid: 98063f1f-1714-441a-a553-a70b649e9cca
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_interaktion
+    - node.type.protokoll
+  module:
+    - text
+id: node.protokoll.field_interaktion
+field_name: field_interaktion
+entity_type: node
+bundle: protokoll
+label: Interaktion
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

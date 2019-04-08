@@ -1,0 +1,22 @@
+uuid: 5a25147f-a648-4fec-a19c-e9b7e6d7aef5
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hypothese
+    - node.type.protokoll
+  module:
+    - text
+id: node.protokoll.field_hypothese
+field_name: field_hypothese
+entity_type: node
+bundle: protokoll
+label: Hypothese
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,0 +1,22 @@
+uuid: beb054a6-1b12-44d0-a0c7-522c1c921301
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_situationsanalyse
+    - node.type.protokoll
+  module:
+    - text
+id: node.protokoll.field_situationsanalyse
+field_name: field_situationsanalyse
+entity_type: node
+bundle: protokoll
+label: Situationsanalyse
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

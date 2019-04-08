@@ -1,0 +1,13 @@
+uuid: d31843b7-859f-4213-a076-f364a77d4728
+langcode: de
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
+name: Artikel
+type: article
+description: 'Benutzen Sie <em>Artikel</em> für zeitkritische Inhalte wie Nachrichten, Pressemeldungen oder Blogeinträge.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

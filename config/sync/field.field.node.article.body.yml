@@ -1,0 +1,24 @@
+uuid: f585b6c7-1965-4f78-a3ad-b0ff5cd36dd2
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.article
+  module:
+    - text
+_core:
+  default_config_hash: Ay3b2hq42cpQTFB_lNu8S2ZxuVIY6-dlBsc7vLeJ-YY
+id: node.article.body
+field_name: body
+entity_type: node
+bundle: article
+label: Textkörper
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

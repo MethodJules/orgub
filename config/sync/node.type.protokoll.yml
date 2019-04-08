@@ -1,0 +1,18 @@
+uuid: bee5c918-19a2-496a-8271-4d3529839c2f
+langcode: de
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Protokoll
+type: protokoll
+description: 'Hier können Sie für Ihre Gruppe das Protkoll anlegen.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

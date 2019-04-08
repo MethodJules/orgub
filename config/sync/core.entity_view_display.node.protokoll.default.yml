@@ -1,0 +1,61 @@
+uuid: f538b49b-b1cf-4f72-9fbd-88be915df225
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.node.protokoll.body
+    - field.field.node.protokoll.field_contracting
+    - field.field.node.protokoll.field_hypothese
+    - field.field.node.protokoll.field_interaktion
+    - field.field.node.protokoll.field_situationsanalyse
+    - node.type.protokoll
+  module:
+    - text
+    - user
+id: node.protokoll.default
+targetEntityType: node
+bundle: protokoll
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_contracting:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_hypothese:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_interaktion:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_situationsanalyse:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
